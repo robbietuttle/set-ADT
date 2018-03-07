@@ -16,6 +16,7 @@ public class ResizableArraySet implements SetInterface{
 	
 	
 	//---------------------------------------------------------------- Constructors
+	public ResizableArraySet() {
 		data = new int[10];
 		numberOfEntries = 0;
 	}
